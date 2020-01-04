@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class SerializeAnim : MonoBehaviour
 {
@@ -18,6 +17,7 @@ public class SerializeAnim : MonoBehaviour
     void Update()
     {
         mAnimator.SetBool("wait", BoolWait);
+        mAnimator.SetBool("stay", BoolStay);
         mAnimator.SetBool("in", BoolIn);
         mAnimator.SetBool("out", BoolOut);
         mAnimator.SetBool("rotate", BoolRotate);
